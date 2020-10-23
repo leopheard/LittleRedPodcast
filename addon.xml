@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.littleredpodcast" name="Little Red Podcast" version="1.0.0" provider-name="leopheard">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+    <import addon="script.module.requests" version="1.1.0"/>
+    <import addon="script.module.routing" version="0.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language>en_us</language>
+    <summary lang="en">Little Red Podcast</summary>
+    <description lang="en">The Little Red Podcast: interviews and chat celebrating China beyond the Beijing beltway. Hosted by Graeme Smith, China studies academic at the Australian National University's Department of Pacific Affairs and Louisa Lim, former China correspondent for the BBC and NPR, now with the Centre for Advancing Journalism at Melbourne University. We are the 2018 winners of podcast of the year in the News and Current Affairs category of the Australian Podcast Awards. Follow us @limlouisa and @GraemeKSmith, and find show notes at: www.facebook.com/LittleRedPodcast</description>
+    <license>The MIT License (MIT)</license>
+    <forum></forum>
+    <email>leopheard@gmail.com</email>
+    <source>https://github.com/leopheard/LittleRedPodcast</source>
+    <website>https://www.facebook.com/LittleRedPodcast/</website>
+        	<assets>
+			<icon>resources/media/icon.jpg</icon>
+			<fanart>resources/media/fanart.jpg</fanart>
+			<screenshot>resources/media/1.jpg</screenshot>
+			<screenshot>resources/media/icon.jpg</screenshot>
+			<screenshot>resources/media/icon.jpg</screenshot>
+		</assets>
+  </extension>
+</addon>
